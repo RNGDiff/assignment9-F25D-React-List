@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "../styles/Sidebar.css";
 
-import Buttons from "./Buttons";
-
 function Sidebar() {
     const [menu, setOpen] = useState(false);
 
@@ -16,7 +14,6 @@ function Sidebar() {
                     <a href="/uppgift2">Uppgift 2</a>
                     <a href="/uppgift3">Uppgift 3</a>
                 </aside>
-                <Buttons />
             </div>
         </div>
     );

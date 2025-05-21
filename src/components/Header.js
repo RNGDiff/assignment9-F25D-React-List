@@ -1,8 +1,14 @@
+import css from "../styles/Header.css";
+import Taglist from "./Taglist";
+
 function Header() {
     return (
-        <header>
-            <h1>F25D Borås YH - React kurs</h1>
-        </header>
+        <div className="content-container">
+            <header>
+                <h1 className="header-title">F25D Borås YH - React kurs</h1>
+            </header>
+            <Taglist />
+        </div>
     );
 }
 

@@ -1,0 +1,9 @@
+.header-title{
+    font-size: 4rem;
+    color: #333;
+    text-align: center;
+    margin: 30px 0;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 100px 10px gray;
+    padding: 20px;
+}
