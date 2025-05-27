@@ -1,0 +1,36 @@
+
+.postlist-container {
+    display: flex;
+}
+.post-list {
+    width: 500px;
+    height: 100%;
+    background: #e6e8eb;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.post {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.post h2 {
+    color: #000000;
+    font-size: 1.5rem;
+}
+.post p {
+    color: #0c0c0c;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+    .post-list {
+    width: 100%;
+    }
+    
+}

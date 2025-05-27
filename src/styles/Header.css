@@ -7,3 +7,19 @@
     box-shadow: 0px 0px 100px 10px gray;
     padding: 20px;
 }
+.flex-posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+@media (max-width: 900px) {
+    .flex-posts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
